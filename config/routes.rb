@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root to: 'app#login'
   get '/savethedate', to: 'app#savethedate'
   get '/login', to: 'app#login'
   get '/login_attempt', to: 'app#login_attempt'

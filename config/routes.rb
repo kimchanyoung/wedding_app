@@ -1,11 +1,9 @@
 Rails.application.routes.draw do
-  get 'app/login'
-
-  get 'app/savethedate'
-
-  get 'app/rsvp'
-
-  get 'app/registry'
+  get '/savethedate', to: 'app#savethedate'
+  get '/login', to: 'app#login'
+  get '/login_attempt', to: 'app#login_attempt'
+  get '/rsvp', to: 'app#rsvp'
+  get '/registry', to: 'app#registry'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

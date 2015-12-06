@@ -4,7 +4,7 @@
 }
 
 #std-header {
-  background: image-url('savethedate.jpg');
+  background: url('savethedate.jpg');
   padding-top: 7%;
   padding-bottom: 30%;
   -webkit-background-size: 100% auto;

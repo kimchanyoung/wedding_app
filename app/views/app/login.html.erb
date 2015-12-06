@@ -1,2 +1,8 @@
-<h1>App#login</h1>
-<p>Find me in app/views/app/login.html.erb</p>
+<body id='login-page'>
+  <h1 id='login-intro'>What are you doing <%= @date_diff%> days from today?</h1>
+  <form id='login-form' action='login_attempt'>
+    <%= token_tag %>
+    <input id='pword-attempt' type='password' name='pword_attempt' placeholder='password'>
+    <input id='pword-submit' type='submit' value='enter'>
+  </form>
+</body>

@@ -1,12 +1,14 @@
 $(document).ready(function(){
   $('#login-form').submit(function(e){
-    e.preventDefault();
-    debugger;
+    // e.preventDefault();
+    // debugger;
     var type = this.method;
     var url = this.action;
+    var data = $(this).serialize();
     // $.ajax({
     //   type: 'post',
-    //   url:
+    //   url: url,
+    //   data: data
     // })
   })
 });

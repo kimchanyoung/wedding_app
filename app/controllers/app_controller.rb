@@ -8,11 +8,15 @@ class AppController < ApplicationController
   end
 
   def login_attempt
-    if params[:pword_attempt] == 'doughnuts'
-      cookies[:logged_in] = { value: true, expires: 1.day.from_now.utc}
-      redirect_to savethedate_path
-    else
+    if request.xhr?
 
+    else
+      if params[:pword_attempt] == 'doughnuts'
+        cookies[:logged_in] = { value: true, expires: 1.day.from_now.utc}
+        redirect_to savethedate_path
+      else
+        redirect_to login_path
+      end
     end
   end
 

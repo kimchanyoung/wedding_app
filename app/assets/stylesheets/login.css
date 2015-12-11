@@ -1,27 +1,3 @@
-.video {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.video iframe {
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-}
-
-.video .overlay {
-  position: absolute;
-  z-index: 2;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-}
-
 #login-page {
   height: 100%;
   width: 100%;

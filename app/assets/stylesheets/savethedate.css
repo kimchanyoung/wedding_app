@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-#std-header {
+/*#std-header {
   background: url('savethedate.jpg');
   padding-top: 7%;
   padding-bottom: 30%;
@@ -12,29 +12,30 @@
   -o-background-size: 100% auto;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   margin-bottom: 2em;
+  text-shadow: 2px 2px black;
 }
 
 .std-infotitle h1 {
-  margin-top: 1em;
+  margin-top: 2em;
   text-align: center;
   color:white;
-  font-family: 'Raleway';
+  font-family: 'Dawning of a New Day';
 }
 
 .std-infotitle h2 {
   margin-top: 1em;
   text-align: center;
   color:white;
-  font-family: 'Raleway';
+  font-family: 'Dawning of a New Day';
   font-size: 1.5em;
-}
+}*/
 
 #std-title {
-  margin-top: 5em;
-  margin-bottom: 4em;
+  margin-top: 2em;
+  margin-bottom: 1em;
   text-align: center;
+  font-size: 1.4em;
 }
 /*FORM STYLING*/
 

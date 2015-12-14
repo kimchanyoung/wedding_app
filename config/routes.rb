@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get '/login_attempt', to: 'app#login_attempt'
   get '/rsvp', to: 'app#rsvp'
   get '/registry', to: 'app#registry'
+  get '/thankyou', to: 'app#thankyou'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

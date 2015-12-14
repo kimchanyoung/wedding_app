@@ -29,6 +29,9 @@ class AppController < ApplicationController
   def registry
   end
 
+  def thankyou
+  end
+
   private
 
   def require_login

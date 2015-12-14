@@ -1,5 +1,5 @@
 class AppController < ApplicationController
-  before_action :require_login, only: [:savethedate, :rsvp, :registry]
+  before_action :require_login, only: [:savethedate, :rsvp, :registry, :thankyou]
 
   def login
     today = DateTime.now

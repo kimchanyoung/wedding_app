@@ -28,12 +28,13 @@
 }
 
 #login-intro {
-  color:  white;
+  /*color:  white;*/
+  /*opacity: 0.3;*/
+  color: #6b7187;
   font-family: 'Homemade Apple';
   font-size: 2em;
   text-align: center;
   margin: 1em;
-  opacity: 0.3;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;

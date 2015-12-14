@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  $("#commentForm").validate({meta: "validate"});
   $('#login-form').submit(function(e){
     // e.preventDefault();
     // debugger;

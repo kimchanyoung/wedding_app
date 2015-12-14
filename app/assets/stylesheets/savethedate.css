@@ -3,39 +3,42 @@
   margin: 0;
 }
 
-/*#std-header {
-  background: url('savethedate.jpg');
+#std-header {
+/*  background: url('savethedate.jpg');
   padding-top: 7%;
-  padding-bottom: 30%;
+  padding-bottom: 30%;*/
   -webkit-background-size: 100% auto;
   -moz-background-size: 100% auto;
   -o-background-size: 100% auto;
   background-size: 100% auto;
   background-repeat: no-repeat;
+  /*text-shadow: 2px 2px black;*/
   margin-bottom: 2em;
-  text-shadow: 2px 2px black;
+  color: black;
+  text-align: center;
 }
 
 .std-infotitle h1 {
   margin-top: 2em;
-  text-align: center;
-  color:white;
-  font-family: 'Dawning of a New Day';
+  /*font-family: 'Dawning of a New Day';*/
 }
 
 .std-infotitle h2 {
   margin-top: 1em;
-  text-align: center;
-  color:white;
-  font-family: 'Dawning of a New Day';
+  /*font-family: 'Dawning of a New Day';*/
   font-size: 1.5em;
-}*/
+}
 
 #std-title {
   margin-top: 2em;
   margin-bottom: 1em;
   text-align: center;
   font-size: 1.4em;
+}
+
+.breaker {
+  text-align: center;
+  margin: .5em;
 }
 /*FORM STYLING*/
 
@@ -163,7 +166,7 @@ label.error {
 
 /*Submit Button*/
 #ss-submit {
-  padding: 10px 15px;
+  padding: 10px 30px;
   background: white;
   color: black;
   font-size: 1em;

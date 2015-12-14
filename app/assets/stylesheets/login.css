@@ -50,6 +50,6 @@
   border: none;
 }
 
-input:focus {
+input:focus, textarea {
   outline:none;
   }

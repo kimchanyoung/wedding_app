@@ -4,7 +4,7 @@ class AppController < ApplicationController
   def login
     today = DateTime.now
     wedding_day = Date.parse "2016-07-30"
-    @date_diff = (wedding_day - today).to_i
+    @date_diff = (wedding_day - today).to_i + 1
   end
 
   def login_attempt

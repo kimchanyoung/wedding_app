@@ -8,7 +8,6 @@
   background: url('seawave_bg2.jpg');
   padding-top: 2.5%;
   padding-bottom: 5%;
-  background-position: 50% 50%;
   -webkit-background-size: 100% auto;
   -moz-background-size: 100% auto;
   -o-background-size: 100% auto;
@@ -201,5 +200,12 @@ label.error {
 
 /*Footer*/
 footer {
-  height: 150px;
+  background-position: 50% 50%;
+  background-image: url('seawave_footer.jpg');
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 20em;
 }

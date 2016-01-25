@@ -11,7 +11,7 @@ class AppController < ApplicationController
     if request.xhr?
 
     else
-      if params[:pword_attempt] == 'doughnuts'
+      if params[:pword_attempt] == 'july30'
         cookies[:logged_in] = { value: true, expires: 1.day.from_now.utc}
         redirect_to savethedate_path
       else
